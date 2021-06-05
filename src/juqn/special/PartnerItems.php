@@ -28,7 +28,7 @@ class PartnerItems extends PluginBase implements Listener
 		$player = $event->getPlayer();
 		$item = $event->getItem();
 		
-		if ($item->getId() == 344 && $item->getCustomName() == "§l§dSwox's Portable Bard§r") {
+		if ($item->getId() == 344 && $item->getCustomName() == "§l§dJuqn's Portable Bard§r") {
 			$event->setCancelled();
 			
 			if ($action == $event::RIGHT_CLICK_BLOCK) {
