@@ -1,0 +1,4 @@
+name: PartnerItems
+version: 1.0
+main: juqn\special\PartnerItems
+api: 3.0.0
